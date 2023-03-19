@@ -33,3 +33,5 @@ nav:
   - 主页: index.md
   - 接口定义:
       - 概述: interface/index.md
+      - 消息接口:
+          - 消息动作: interface/message/actions.md
