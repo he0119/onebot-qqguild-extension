@@ -25,7 +25,7 @@ extra:
     language: jp
   analytics:
     provider: google
-    property: G-RT0B6ZLNQH
+    property: G-1CJFEE20P2
 extra_css:
   - assets/stylesheets/extra.css
 
