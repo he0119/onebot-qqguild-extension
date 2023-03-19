@@ -1,0 +1,35 @@
+site_name: OneBot 12 QQ频道扩展标准（草案）
+repo_name: he0119/onebot-qqguild-extension
+repo_url: https://github.com/he0119/onebot-qqguild-extension
+edit_uri: blob/main/specs/
+docs_dir: specs
+theme:
+  name: material
+  language: zh
+  logo: assets/images/logo-white.png
+  favicon: assets/images/logo.png
+  palette:
+    scheme: onebot
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+extra:
+  search:
+    language: jp
+  analytics:
+    provider: google
+    property: G-RT0B6ZLNQH
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - 主页: index.md
+  - 接口定义:
+      - 概述: interface/index.md
