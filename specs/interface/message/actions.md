@@ -5,10 +5,10 @@
     字段名 | 数据类型 | 默认值 | 说明
     --- | --- | --- | ---
     `detail_type` | string | - | 发送的类型，可以为 `private`、`channel`，和**消息事件**的 `detail_type` 字段对应
-    `event_id` | string | - | 事件 ID，当发送被动消息时必须传入
     `guild_id` | string | - | 私聊临时频道 ID，当 `detail_type` 为 `private` 时必须传入
     `channel_id` | string | - | 子频道 ID，当 `detail_type` 为 `channel` 时必须传入
     `message` | message | - | 消息内容
+    `qqguild.event_id` | string | - | 事件 ID，当发送被动消息时必须传入
 
 === "响应数据"
 
@@ -24,7 +24,6 @@
         "action": "send_message",
         "params": {
             "detail_type": "channel",
-            "event_id": "11111",
             "channel_id": "12467",
             "message": [
                 {
@@ -33,7 +32,8 @@
                         "text": "我是文字巴拉巴拉巴拉"
                     }
                 }
-            ]
+            ],
+            "qqguild.event_id": "11111"
         }
     }
     ```
