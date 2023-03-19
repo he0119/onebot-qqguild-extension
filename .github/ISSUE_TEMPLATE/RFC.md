@@ -1,8 +1,8 @@
 ---
 name: RFC
 about: 提交 RFC 以待社区评论，内容应较为正式，最好已经在 discussions 或相关群经过基本讨论
-title: '这是 RFC 的标题'
-labels: ['C-rfc', 'ST-draft']
+title: "这是 RFC 的标题"
+labels: ["C-rfc", "ST-draft"]
 ---
 
 ## 摘要
