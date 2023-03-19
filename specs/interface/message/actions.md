@@ -59,7 +59,7 @@
     字段名 | 数据类型 | 默认值 | 说明
     --- | --- | --- | ---
     `user_id` | string | - | 用户 ID
-    `src_guild_id` | string | - | 私聊的发起频道 ID
+    `src_guild_id` | string | - | 源频道 ID
 
 === "响应数据"
 
