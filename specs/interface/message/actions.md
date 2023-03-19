@@ -8,7 +8,7 @@
     `guild_id` | string | - | 私聊临时频道 ID，当 `detail_type` 为 `private` 时必须传入
     `channel_id` | string | - | 子频道 ID，当 `detail_type` 为 `channel` 时必须传入
     `message` | message | - | 消息内容
-    `qqguild.event_id` | string | - | 事件 ID，当发送被动消息时必须传入
+    `event_id` | string | - | 事件 ID，当发送被动消息时必须传入
 
 === "响应数据"
 
