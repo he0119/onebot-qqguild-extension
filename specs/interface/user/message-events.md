@@ -12,7 +12,7 @@
     `qqguild.guild_id` | string | 临时频道 ID
     `qqguild.src_guild_id` | string | 源频道 ID
     `qqguild.author` | map[string]any | 消息创建者
-    `qqguild.author` | map[string]any | 消息创建者的成员信息
+    `qqguild.member` | map[string]any | 消息创建者的成员信息
 
     对于 `user_id` 字段，如果存在匿名用户或群内系统自身发送的消息，应指定为固定值并在文档中告知用户。
 

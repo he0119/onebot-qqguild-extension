@@ -12,7 +12,7 @@
     `channel_id` | string | 频道 ID
     `user_id` | string | 用户 ID
     `qqguild.author` | map[string]any | 消息创建者
-    `qqguild.author` | map[string]any | 消息创建者的成员信息
+    `qqguild.member` | map[string]any | 消息创建者的成员信息
 
 === "示例"
 
