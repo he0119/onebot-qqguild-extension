@@ -8,9 +8,39 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+nonebot2 = "^2.0.0-rc.1"
+nonebot-adapter-onebot = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+pre-commit = "*"
+nonebug = "^0.3.1"
+pytest-cov = "^4.0.0"
+pytest-xdist = "^3.1.0"
+pytest-mock = "^3.7.0"
+pytest-asyncio = "^0.20.3"
 mkdocs = "^1.4.2"
 mkdocs-material = "^9.1.3"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.nonebot]
+plugins = ["onebot_qqguild_extension"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+skip_gitignore = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.pyright]
+pythonVersion = "3.8"
+pythonPlatform = "All"
