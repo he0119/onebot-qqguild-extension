@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "onebot-qqguild-extension"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["hemengyang <hmy0119@gmail.com>"]
 license = "MIT"
@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 nonebot2 = "^2.0.0-rc.1"
-nonebot-adapter-onebot = "^2.2.2"
+nonebot-adapter-onebot = "^2.2.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "*"
