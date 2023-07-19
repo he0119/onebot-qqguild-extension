@@ -22,6 +22,7 @@ if TYPE_CHECKING:
             guild_id: str = ...,
             channel_id: str = ...,
             message: Message,
+            event_id: str = ...,
         ) -> SendMessageResp:
             """发送消息
 
